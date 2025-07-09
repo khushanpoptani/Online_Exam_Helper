@@ -23,7 +23,7 @@ ${question}
 
     try {
         const result = await fetch(
-            'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBCRUnr2-IqKgyjznbyOJ-CgbdQL9pxq8Q',
+            'API_KEY',
             {
                 method: 'POST',
                 headers: {
