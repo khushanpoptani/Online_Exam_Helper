@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Online Exams Helper",
+  "version": "1.0",
+  "description": "An instant quiz assistant powered by AI. Just one click to get the correct answer — perfect for students, learners, and quiz takers.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage", "scripting"],
+  "host_permissions": ["https://generativelanguage.googleapis.com/"],
+  "icons": {
+    "128": "icon.png"
+  }
+}
