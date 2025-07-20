@@ -19,7 +19,7 @@ ${info.selectionText}
 
     try {
         const result = await fetch(
-            'Sample.API',
+            'Sample_google_API',
             // 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBCRUnr2-IqKgyjznbyOJ-CgbdQL9pxq8Q',
             {
                 method: 'POST',
